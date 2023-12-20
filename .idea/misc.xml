@@ -1,0 +1,29 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/drawable/add.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/drawable/bg_rounded_input_field.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/activity_pie_chart.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/activity_pie_chart_income.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/expense_add_item.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/fragment_dashboard.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/fragment_expense.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/fragment_income.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/income_add_litem.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/layout_expense_item.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/layout_expense_item2.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/layout_income_item.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/layout/layout_income_item2.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/expensetrackersystem/app/src/main/res/menu/menu.xml" value="0.26666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

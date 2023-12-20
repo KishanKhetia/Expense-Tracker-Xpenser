@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="?attr/actionBarTheme"
+        android:title="Cost Sharing with Friends"
+        android:titleTextColor="@android:color/white" />
+
+    <!-- Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Add Friends -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Friends"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Friend Name -->
+            <EditText
+                android:id="@+id/et_friend_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Friend's Name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <!-- Expense Amount -->
+            <EditText
+                android:id="@+id/et_expense_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Expense Amount"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <!-- Add Button -->
+            <Button
+                android:id="@+id/btn_add_friend_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Add Expense"
+                android:textAllCaps="false" />
+
+            <!-- Friend Expenses List -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_friend_expenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:scrollbars="vertical" />
+
+            <!-- Total Expenses -->
+            <TextView
+                android:id="@+id/tv_total_expenses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Total Expenses: Ksh 0.00"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
